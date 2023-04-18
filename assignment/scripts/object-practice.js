@@ -1,4 +1,4 @@
-console.log("***** Object Practice *****");
+console.log('***** Object Practice *****');
 
 // Add the required code to complete the tasks below
 
@@ -10,13 +10,13 @@ console.log("***** Object Practice *****");
 */
 const me = {
   // TODO - add properties here
-  firstName: "Michael",
-  lastName: "Duren",
+  firstName: 'Michael',
+  lastName: 'Duren',
   hasSiblings: true,
   shoeCount: 4,
-  favThreeFoods: ["Sushi", "Ribeye", "Mussels"],
+  favThreeFoods: ['Sushi', 'Ribeye', 'Mussels'],
 };
-console.log("A little about me:", me);
+console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
@@ -52,5 +52,5 @@ console.log(`I got new shoes! I have now have ${me.shoeCount} pairs of shoes!`);
   - Console.log your object
 */
 
-me.favoriteColor = "Light Blue";
+me.favoriteColor = 'Light Blue';
 console.log(me);
