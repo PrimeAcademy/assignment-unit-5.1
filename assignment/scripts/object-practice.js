@@ -13,7 +13,7 @@ firstName: 'Justin',
 lastName: 'Reichelt',
 hasSiblings: true,
 shoeCount: '6',
-favThreeFoods: ['spaghetti', 'pho', 'seafood']
+favThreeFoods: ['spaghetti', 'pho', 'seafood', 'dim sum']
 };
 // TODO - add properties here
 console.log('A little about me:', me);
@@ -25,7 +25,7 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-let fullName = 'Justin' + ' '+ 'Reichelt';
+let fullName = me.firstName + " " + me.lastName;
 console.log('My name is', fullName);
 
 /* 3. Nested arrays
@@ -33,7 +33,8 @@ console.log('My name is', fullName);
   - Console.log your last favorite food 
 */
 console.log('My first favorite food is:', me.favThreeFoods[0]);
-console.log('My last favorite food is:', me.favThreeFoods[2]);
+console.log('My last favorite food is:', me.favThreeFoods[me.favThreeFoods.length-1]);
+
 
 
 /* 4. Change a property of an existing object.
