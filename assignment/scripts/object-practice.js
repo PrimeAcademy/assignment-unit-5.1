@@ -9,8 +9,13 @@ console.log('***** Object Practice *****')
   - Also give it an array 'favThreeFoods'
 */
 const me = {
-  // TODO - add properties here
+firstName: 'Justin',
+lastName: 'Reichelt',
+hasSiblings: true,
+shoeCount: '6',
+favThreeFoods: ['spaghetti', 'pho', 'seafood']
 };
+// TODO - add properties here
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -20,13 +25,15 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
-
+let fullName = 'Justin' + ' '+ 'Reichelt';
+console.log('My name is', fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log('My first favorite food is:', me.favThreeFoods[0]);
+console.log('My last favorite food is:', me.favThreeFoods[2]);
 
 
 /* 4. Change a property of an existing object.
@@ -35,7 +42,7 @@ console.log('A little about me:', me);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+console.log('My current shoe count is:', me.shoeCount);
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -43,3 +50,69 @@ console.log('A little about me:', me);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+
+// let user = {
+//   id: 123,
+//   firstName: 'Anne',
+//   role: 'admin'
+// };
+
+// console.log(user);
+// console.log(user['firstName']);
+
+// let foods = ['apples', 'oranges', 'bahn mi'];
+
+// console.log(foods);
+// console.log(foods.length);
+
+// console.log(user.role);
+// console.log(console);
+
+// user.firstName = 'Annabel';
+// user.lastName = 'Lee';
+
+// console.log(user);
+
+// let mapPin = {
+//   location: {
+//     lat: 45,
+//     long: -95
+//   },
+//   visitors: ['Annabel', 'Bob', 'Jubba'],
+//   isScenic: true,
+//   neighborhood: null,
+//   greet: () => {
+//     console.log('Hello from my favorite spot!');
+//   }
+// }
+// mapPin.greet();
+
+// console.log(mapPin.location.lat);
+
+// let pinMatrix = [
+//   [null, mapPin]
+// ];
+
+// console.log(pinMatrix[0][1].visitors[1]);
+
+// //let pin2 = structuredClone(mapPin);
+
+// //user.middleName = undefined;
+
+// if (Object.hasOwn(user, 'middleName')) {
+//   console.log(user.middleName);
+// } else {
+//   console.log('No middle name!');
+// }
+
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+
+// for (let val of Object.values(user)){
+//   console.log('This is a val:', val);
+// }
+
+// // for (let key of Object.keys(user)) {
+// //   console.log('This is a key:', key);
+// // }
