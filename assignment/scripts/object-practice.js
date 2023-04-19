@@ -33,7 +33,7 @@ console.log(fullName);
   - Console.log your last favorite food 
 */
 console.log(me.favThreeFoods[0]);
-console.log(me.favThreeFoods[2]);
+console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -54,3 +54,6 @@ console.log(`I got new shoes! I have now have ${me.shoeCount} pairs of shoes!`);
 
 me.favoriteColor = 'Light Blue';
 console.log(me);
+
+Object.keys();
+('Proptotype chaining');
