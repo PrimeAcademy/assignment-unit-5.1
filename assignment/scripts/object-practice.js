@@ -24,14 +24,16 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = `${me.firstName} ${me.lastName}`
-console.log(fullName)
+let fullName = `${me.firstName} ${me.lastName}`;
+console.log('full name:', fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
+console.log('first favorite food:', me.favThreeFoods[0]);
+console.log('second favorite food:',me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 
 
@@ -41,6 +43,9 @@ console.log(fullName)
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
+console.log('current shoe count:', me.shoeCount);
+me.shoeCount += 1;
+console.log('added 1 pair of shoes. updated shoe count:', me.shoeCount);
 
 
 /* 5. Add a new property to an existing object.
@@ -49,3 +54,5 @@ console.log(fullName)
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = "green";
+console.log("A little about me:",me);
