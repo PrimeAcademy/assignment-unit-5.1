@@ -56,4 +56,5 @@ console.log(me.shoeCount);
   - Console.log your object
 */
 me.favoriteColor = 'surprise me';
+console.log(me);
 console.log(JSON.stringify(me));
