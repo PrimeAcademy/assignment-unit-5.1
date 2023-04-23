@@ -12,7 +12,7 @@ const me = {
 
   // TODO - add properties here
 
-  firstName: 'Gabi',
+  firstName: 'Gabrielle',
   lastName: 'Lepensky',
   hasSiblings: true, 
   shoeCount: 15,
